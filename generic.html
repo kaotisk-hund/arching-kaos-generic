@@ -10,6 +10,8 @@
 		  background-color: rgb(45,20,100);
 		  color: rgb(222,222,222);
 		  font-family: sans;
+		  margin: auto;
+		  padding: 10%;
 		}
 
 		a {
@@ -22,42 +24,119 @@
 		.delete {
 			text-decoration-line: line-through;
 		}
+		div { padding: 2%; }
 	</style>
 </head>
 <body>
 <h1>Arching Kaos</h1>
-<em>An index for Arching-Kaos services</em>
+<em>An index for Arching-Kaos/ED12 services</em>
 <ul>
-	<li>Radio ( Music mixes, live streams and more )</li>
-	<li>Matrix ( Chat with people all over the world over our matrix instance )</li>
-	<li>Scuttlebutt ( A sosial network off-the-grid )</li>
-	<li>IPFS Gateway <span class="delete">( set for our private swarm )</span></li>
+	<li><a href="#radio">Radio ( Music mixes, live streams and more )</a></li>
+	<li><a href="#chat">Chat ( Chat with people all over the world over our matrix instance )</a></li>
+	<li><a href="#scuttlebutt">Scuttlebutt ( A sosial network off-the-grid )</a></li>
+	<li><a href="#ipfs-gateway">IPFS Gateway ( set for our private swarm )</a></li>
+	<li><a href="#icecast">Icecast</a></li>
+	<li><a href="#searx">Search the internet</a></li>
+	<li><a href="#irc">IRC (chat network)</a></li>
+	<li><a href="#gate-ed12">Gate ed12 homepage</a></li>
+	<li><a href="#gate-ed12-storage">Gate ed12 blog</a></li>
+	<li><a href="#arching-kaos-support">Support over all our services</a></li>
+	<li><a href="#git">Git</a></li>
 	<li>CJDNS connectivity</li>
 	<li>Yggdrasil connectivity</li>
 </ul>
+<hr>
 <h2>Links</h2>
-<h3>over internet</h3>
-<ul>
-	<li><a href="https://radio.arching-kaos.tk" target="_blank">Radio</a></li>
-	<li><a href="https://chat.ed12.ga" target="_blank">Chat</a></li>
-	<li><a href="https://ssb.arching-kaos.tk" target="_blank">Scuttlebutt invitation</a></li>
-	<li><a href="https://ipfs.arching-kaos.tk" target="_blank">IPFS gateway</a></li>
-	<li><a href="https://icecast.arching-kaos.tk" target="_blank">Icecast stats</a></li>
-</ul>
-<h3>over cjdns</h3>
-<ul>
-	<li><a href="http://h.radio.arching-kaos.tk" target="_blank">Radio</a></li>
-	<li><a href="http://hs.arching-kaos.tk:8080" target="_blank">IPFS gateway</a></li>
-	<li><a href="http://hs.arching-kaos.tk:8000" target="_blank">Icecast stats</a></li>
-</ul>
-<h3>over yggdrasil</h3>
-<ul>
-	<li><a href="http://y.radio.arching-kaos.tk" target="_blank">Radio</a></li>
 
-	<li><a href="http://ys.arching-kaos.tk:8080" target="_blank">IPFS gateway</a></li>
-	<li><a href="http://ys.arching-kaos.tk:8000" target="_blank">Icecast stats</a></li>
-</ul>
+<div id="radio">
+	<h3>Radio</h3>
+	<p>Our main project is the webradio <em>Arching Kaos Radio</em>. You can visit via various networks.</p>
+	<ul>
+       	<li><a href="https://radio.arching-kaos.tk" target="_blank">[internet]</a></li>
+		<li><a href="http://h.radio.arching-kaos.tk" target="_blank">[cjdns]</a></li>
+		<li><a href="http://y.radio.arching-kaos.tk" target="_blank">[yggdrasil]</a></li>
+	</ul>
+</div>
+
+<div id="chat">
+	<h3>Chat</h3>
+	<p>Web interface for our matrix instance.</p>
+	<ul>
+	    <li><a href="https://chat.ed12.ga" target="_blank">[internet]</a></li>
+	</ul>
+</div>
+
+<div id="scuttlebutt">
+	<h3>Scuttlebutt</h3>
+	<p>Social network off-the-grid</p>
+	<ul>
+        <li><a href="https://ssb.arching-kaos.tk" target="_blank">Scuttlebutt invitation</a></li>
+    </ul>
+</div>
+	
+<div id="ipfs-gateway">
+	<h3>IPFS Gateway</h3>
+	<p>This gateway is used to retrieve hashes from our private swarm.</p>
+	<ul>
+		<li><a href="https://ipfs.arching-kaos.tk" target="_blank">[internet]</a></li>
+		<li><a href="http://hs.arching-kaos.tk:8080" target="_blank">[cjdns]</a></li>
+		<li><a href="http://ys.arching-kaos.tk:8080" target="_blank">[yggdrasil]</a></li>
+	</ul>
+</div>
+
+<div id="icecast">
+	<h3>Icecast</h3>
+	<ul>
+	    <li><a href="https://icecast.arching-kaos.tk" target="_blank">[internet]</a></li>
+        <li><a href="http://hs.arching-kaos.tk:8000" target="_blank">[cjdns]</a></li>
+	    <li><a href="http://ys.arching-kaos.tk:8000" target="_blank">[yggdrasil]</a></li>
+	</ul>
+</div>
+
+<div id="searx">
+	<h3>Search</h3>
+	<ul>
+        <li><a href="https://searx.ed12.ga" target="_blank">Search (Searx)</a></li>
+    </ul>
+</div>
+
+<div id="irc">
+	<h3>IRC</h3>
+	<ul>
+        <li><a href="https://irc.ed12.ga" target="_blank">IRC</a></li>
+	</ul>
+</div>
+
+<div id="gate-ed12">
+	<h3>Gate ED12</h3>
+	<ul>
+        <li><a href="https://www.ed12.ga" target="_blank">gate ED12</a></li>
+    </ul>
+</div>
+
+<div id="gate-ed12-storage">
+	<h3>Gate ED12 Blog</h3>
+	<ul>
+		<li><a href="https://storage.arching-kaos.tk/" target="_blank">Gate ed12 | Storage and services</a></li>
+	</ul>
+</div>
+
+<div id="arching-kaos-support">
+	<h3>Arching Kaos Support</h3>
+	<ul>
+        <li><a href="https://support.ed12.ga/" target="_blank">Arching Kaos Support</a></li>
+    </ul>
+</div>
+
+<div id="git">
+	<h3>GIT</h3>
+	<ul>
+        <li><a href="https://git.ed12.ga/" target="_blank">Git</a></li>
+	</ul>
+</div>
+<hr>
 <h2>Sources</h2>
+<em>The following build versions are outdated. Riot.im is called now Element. Please try getting the latest versions.</em>
 <ul>
 	<li>
 		<h3>Linux</h3>
@@ -87,7 +166,7 @@
 <p>Currently you can donate with bitcoin by sending funds to the following address.</p>
 <pre><a href="bitcoin:115yYyrZLcsca96fUNSrSLxpRW73YvPZmv">115yYyrZLcsca96fUNSrSLxpRW73YvPZmv</a></pre>
 <h2>About</h2>
-<p>This server ( Arching Kaos ) and services are running by Kaotisk Hund since 2019. For more information, visit <a href="https://www.kaotisk-hund.tk">this page</a>.</p>
+<p>This server ( Arching Kaos ) and services are running by Kaotisk Hund since 2019. For more information, visit <a target="_blank" href="https://www.kaotisk-hund.tk">this page</a>.</p>
 <small>Thank you for visiting!</small>
 </body>
 </html>
