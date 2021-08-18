@@ -1,6 +1,6 @@
 # arching-kaos-generic
 
-Index of links, sort of sitemap or directory.
+Index of links, sort of sitemap or directory for the arching-kaos project instance.
 
 ## Clone the repo
 `git clone https://github.com/kaotisk-hund/arching-kaos-generic`
