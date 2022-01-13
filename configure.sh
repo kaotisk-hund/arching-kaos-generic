@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir build
 cp src/index.html build/index.html
 sed -i.bak -e 's/{$DOMAIN}/arching-kaos.local/g' conf.d/default.conf
 sed -i.bak -e 's/{$DOCS_SERVER_NAME}/docs.arching-kaos.local/g' build/index.html
